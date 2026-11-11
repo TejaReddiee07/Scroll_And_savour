@@ -1,0 +1,44 @@
+{
+  "name": "fuji-restaurant-server",
+  "version": "1.0.0",
+  "description": "REST API for the Fuji Japanese Restaurant website (menu, orders, reservations, catering, contact, admin).",
+  "private": true,
+  "type": "module",
+  "main": "src/index.js",
+  "engines": {
+    "node": ">=20.11"
+  },
+  "scripts": {
+    "start": "node src/index.js",
+    "dev": "node --watch src/index.js",
+    "seed": "node src/seed/seed.js",
+    "seed:reset": "node src/seed/seed.js --reset",
+    "smoke": "node scripts/smoke.js",
+    "check": "node scripts/check-syntax.js",
+    "demo": "node scripts/demo.js",
+    "cutout-model": "node scripts/get-cutout-model.js"
+  },
+  "dependencies": {
+    "bcryptjs": "^3.0.2",
+    "cloudinary": "^2.7.0",
+    "cookie-parser": "^1.4.7",
+    "cors": "^2.8.5",
+    "dotenv": "^16.6.1",
+    "express": "^5.1.0",
+    "express-rate-limit": "^7.5.1",
+    "helmet": "^8.1.0",
+    "jsonwebtoken": "^9.0.2",
+    "mongoose": "^8.16.0",
+    "morgan": "^1.10.0",
+    "multer": "^2.0.2",
+    "sharp": "^0.34.5",
+    "stripe": "^18.2.1",
+    "zod": "^3.25.76"
+  },
+  "devDependencies": {
+    "mongodb-memory-server": "^10.1.4"
+  },
+  "optionalDependencies": {
+    "onnxruntime-node": "^1.21.0"
+  }
+}

@@ -1,0 +1,85 @@
+html:not(.has-js) #boot-loader { display: none !important; }
+/* Loader — a ramen bowl with three steam curls, a 000–100 counter and a bar.
+   Splits open top and bottom when the app is ready (boot.js). */
+#boot-loader {
+  position: fixed;
+  inset: 0;
+  z-index: 9999;
+  display: grid;
+  place-items: center;
+  color: #f4e9d8;
+  font-family: 'DM Mono', ui-monospace, monospace;
+  pointer-events: all;
+}
+#boot-loader .bl-half {
+  position: absolute;
+  left: 0;
+  right: 0;
+  height: 50.5%;
+  background: #0a0706;
+  transition: transform 1s cubic-bezier(0.76, 0, 0.24, 1);
+}
+#boot-loader .bl-top { top: 0; }
+#boot-loader .bl-bottom { bottom: 0; }
+#boot-loader .bl-center {
+  position: relative;
+  z-index: 2;
+  width: min(320px, 80vw);
+  text-align: center;
+  transition: opacity 0.45s, transform 0.6s;
+}
+#boot-loader .bl-count {
+  margin-top: 18px;
+  font-size: 13px;
+  letter-spacing: 0.3em;
+  color: #f0a032;
+}
+#boot-loader .bl-bar {
+  position: relative;
+  height: 1px;
+  margin-top: 14px;
+  background: rgba(244, 233, 216, 0.12);
+  overflow: hidden;
+}
+#boot-loader .bl-bar i {
+  position: absolute;
+  inset: 0;
+  transform-origin: 0 50%;
+  transform: scaleX(0);
+  background: linear-gradient(90deg, #c06a3a, #f0a032, #ffc35a);
+}
+#boot-loader .bl-msg {
+  margin-top: 16px;
+  min-height: 1.2em;
+  font-size: 11px;
+  letter-spacing: 0.22em;
+  text-transform: uppercase;
+  color: rgba(244, 233, 216, 0.6);
+}
+#boot-loader .bl-jp {
+  margin-top: 6px;
+  font-family: 'Shippori Mincho', serif;
+  font-size: 12px;
+  letter-spacing: 0.4em;
+  color: rgba(244, 233, 216, 0.35);
+}
+#boot-loader .steam {
+  stroke-dasharray: 60;
+  stroke-dashoffset: 60;
+  animation: bl-steam 2.1s ease-in-out infinite;
+}
+#boot-loader .steam:nth-of-type(2) { animation-delay: 0.35s; }
+#boot-loader .steam:nth-of-type(3) { animation-delay: 0.7s; }
+@keyframes bl-steam {
+  0% { stroke-dashoffset: 60; opacity: 0; }
+  30% { opacity: 0.9; }
+  100% { stroke-dashoffset: -60; opacity: 0; }
+}
+#boot-loader.is-open { pointer-events: none; }
+#boot-loader.is-open .bl-top { transform: translateY(-101%); }
+#boot-loader.is-open .bl-bottom { transform: translateY(101%); }
+#boot-loader.is-open .bl-center { opacity: 0; transform: scale(0.96); }
+@media (prefers-reduced-motion: reduce) {
+  #boot-loader .steam { animation: none; stroke-dashoffset: 0; opacity: 0.6; }
+  #boot-loader .bl-half { transition-duration: 0.2s; }
+}

@@ -1,0 +1,6 @@
+User-agent: *
+Allow: /
+Disallow: /admin
+Disallow: /order/track/
+
+Sitemap: https://fujirestaurant.co.uk/sitemap.xml

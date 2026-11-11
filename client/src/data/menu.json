@@ -1,0 +1,2008 @@
+{
+  "restaurant": "Fuji Japanese Restaurant",
+  "source": "Fuji Japanese Restaurant — Complete Profile & Website Planning Brief (menu transcribed from https://fujirestaurant.co.uk/menu)",
+  "snapshotDate": "2026-11-10",
+  "currency": "GBP",
+  "allergenNotice": "Our kitchen handles fish, gluten, soy, sesame and shellfish. All salad dressings (including the bento salad dressing) contain nuts. Dietary labels are reproduced from the restaurant's published menu — please always tell staff about allergies before ordering. We cannot guarantee any dish is free from allergens or cross-contamination.",
+  "categories": [
+    {
+      "slug": "starters",
+      "name": "Starters",
+      "jp": "前菜",
+      "intro": "Small plates and warm starters.",
+      "note": null,
+      "items": [
+        {
+          "id": "edamame",
+          "name": "Edamame",
+          "price": 5.45,
+          "description": "Fresh Japanese soya bean pods.",
+          "dietary": [
+            "vegan",
+            "gluten-free"
+          ],
+          "tags": [],
+          "hot": false,
+          "art": "edamame"
+        },
+        {
+          "id": "vegetable-spring-roll",
+          "name": "Vegetable Spring Roll",
+          "price": 5.75,
+          "description": "Crisp skin stuffed with assorted vegetables.",
+          "dietary": [
+            "vegetarian"
+          ],
+          "tags": [],
+          "hot": true,
+          "art": "springroll"
+        },
+        {
+          "id": "vegetable-gyoza",
+          "name": "Vegetable Gyoza (5 pieces)",
+          "price": 5.75,
+          "description": "Japanese deep-fried dumplings.",
+          "dietary": [
+            "vegetarian"
+          ],
+          "tags": [],
+          "hot": true,
+          "art": "gyoza:veg"
+        },
+        {
+          "id": "pumpkin-croquette",
+          "name": "Pumpkin Croquette",
+          "price": 6.45,
+          "description": "Pumpkin, carrot and peas with Japanese-style breadcrumbs.",
+          "dietary": [
+            "vegetarian"
+          ],
+          "tags": [],
+          "hot": true,
+          "art": "croquette"
+        },
+        {
+          "id": "chicken-gyoza",
+          "name": "Chicken Gyoza (5 pieces)",
+          "price": 6.45,
+          "description": "Japanese dumplings.",
+          "dietary": [],
+          "tags": [],
+          "hot": true,
+          "art": "gyoza:chicken"
+        },
+        {
+          "id": "age-dashi-tofu",
+          "name": "Age Dashi Tofu",
+          "price": 6.95,
+          "description": "Fried tofu served with soup.",
+          "dietary": [
+            "vegetarian"
+          ],
+          "tags": [],
+          "hot": true,
+          "art": "agedashi"
+        },
+        {
+          "id": "shrimp-gyoza",
+          "name": "Shrimp Gyoza (5 pieces)",
+          "price": 6.95,
+          "description": "Japanese dumplings.",
+          "dietary": [],
+          "tags": [],
+          "hot": true,
+          "art": "gyoza:shrimp"
+        },
+        {
+          "id": "miso-glazed-eggplant",
+          "name": "Miso Glazed Eggplant",
+          "price": 7.45,
+          "description": "Miso dengaku sauce.",
+          "dietary": [
+            "vegetarian"
+          ],
+          "tags": [],
+          "hot": true,
+          "art": "eggplant"
+        },
+        {
+          "id": "yasai-itame",
+          "name": "Yasai Itame",
+          "price": 7.45,
+          "description": "Stir-fried vegetables with garlic sauce.",
+          "dietary": [
+            "vegan",
+            "gluten-free"
+          ],
+          "tags": [],
+          "hot": true,
+          "art": "greens:itame"
+        },
+        {
+          "id": "chicken-yakitori",
+          "name": "Chicken Yakitori",
+          "price": 7.95,
+          "description": "Boneless grilled chicken skewers.",
+          "dietary": [
+            "gluten-free"
+          ],
+          "tags": [],
+          "hot": true,
+          "art": "yakitori"
+        },
+        {
+          "id": "stir-fry-bok-choy",
+          "name": "Stir Fry Bok Choy",
+          "price": 7.95,
+          "description": "Stir-fried cabbage with garlic sauce.",
+          "dietary": [
+            "vegan",
+            "gluten-free"
+          ],
+          "tags": [],
+          "hot": true,
+          "art": "greens:bokchoy"
+        },
+        {
+          "id": "chicken-karage",
+          "name": "Chicken Karage",
+          "price": 8.45,
+          "description": "Japanese-style fried chicken.",
+          "dietary": [],
+          "tags": [
+            "popular"
+          ],
+          "hot": true,
+          "art": "karaage"
+        },
+        {
+          "id": "vegetable-tempura",
+          "name": "Vegetable Tempura",
+          "price": 8.95,
+          "description": "Assorted battered vegetables.",
+          "dietary": [
+            "vegetarian"
+          ],
+          "tags": [],
+          "hot": true,
+          "art": "tempura:veg"
+        },
+        {
+          "id": "squid-tempura",
+          "name": "Squid Tempura",
+          "price": 10.45,
+          "description": "Japanese-style fried calamari.",
+          "dietary": [],
+          "tags": [],
+          "hot": true,
+          "art": "tempura:squid"
+        },
+        {
+          "id": "prawn-tempura",
+          "name": "Prawn Tempura",
+          "price": 10.45,
+          "description": "Japanese-style fried prawns.",
+          "dietary": [],
+          "tags": [
+            "popular"
+          ],
+          "hot": true,
+          "art": "tempura:prawn"
+        },
+        {
+          "id": "mixed-tempura",
+          "name": "Mixed Tempura",
+          "price": 10.45,
+          "description": "Assorted seafood and mixed vegetables.",
+          "dietary": [],
+          "tags": [],
+          "hot": true,
+          "art": "tempura:mixed"
+        },
+        {
+          "id": "ebi-fry",
+          "name": "Ebi Fry",
+          "price": 10.45,
+          "description": "Deep-fried breaded prawns.",
+          "dietary": [],
+          "tags": [],
+          "hot": true,
+          "art": "ebifry"
+        },
+        {
+          "id": "mixed-starter-platter",
+          "name": "Mixed Starter Platter",
+          "price": 14.5,
+          "description": "Soya beans, spring roll, vegetable/chicken/shrimp gyoza, croquette and fried prawns.",
+          "dietary": [],
+          "tags": [
+            "chefs-pick"
+          ],
+          "hot": true,
+          "art": "platter"
+        }
+      ]
+    },
+    {
+      "slug": "maki-rolls",
+      "name": "Maki Rolls",
+      "jp": "細巻",
+      "intro": "Small rice-and-seaweed rolls with a range of fillings. 8 pieces.",
+      "note": null,
+      "items": [
+        {
+          "id": "cucumber-maki",
+          "name": "Cucumber Maki",
+          "price": 4.45,
+          "description": "8 pieces.",
+          "dietary": [
+            "vegan",
+            "gluten-free"
+          ],
+          "tags": [],
+          "hot": false,
+          "art": "maki:cucumber"
+        },
+        {
+          "id": "avocado-maki",
+          "name": "Avocado Maki",
+          "price": 4.95,
+          "description": "8 pieces.",
+          "dietary": [
+            "vegan",
+            "gluten-free"
+          ],
+          "tags": [],
+          "hot": false,
+          "art": "maki:avocado"
+        },
+        {
+          "id": "kyampo-maki",
+          "name": "Kyampo Maki",
+          "price": 5.25,
+          "description": "8 pieces.",
+          "dietary": [
+            "vegetarian"
+          ],
+          "tags": [],
+          "hot": false,
+          "art": "maki:kyampo"
+        },
+        {
+          "id": "salmon-maki",
+          "name": "Salmon Maki",
+          "price": 5.95,
+          "description": "8 pieces.",
+          "dietary": [
+            "gluten-free"
+          ],
+          "tags": [],
+          "hot": false,
+          "art": "maki:salmon"
+        },
+        {
+          "id": "tuna-maki",
+          "name": "Tuna Maki",
+          "price": 5.95,
+          "description": "8 pieces.",
+          "dietary": [
+            "gluten-free"
+          ],
+          "tags": [],
+          "hot": false,
+          "art": "maki:tuna"
+        },
+        {
+          "id": "spicy-tuna-maki",
+          "name": "Spicy Tuna Maki",
+          "price": 5.95,
+          "description": "8 pieces.",
+          "dietary": [],
+          "tags": [
+            "spicy"
+          ],
+          "hot": false,
+          "art": "maki:spicytuna"
+        },
+        {
+          "id": "eel-maki",
+          "name": "Eel Maki",
+          "price": 5.95,
+          "description": "8 pieces.",
+          "dietary": [],
+          "tags": [],
+          "hot": false,
+          "art": "maki:eel"
+        },
+        {
+          "id": "tuna-and-cucumber-maki",
+          "name": "Tuna and Cucumber Maki",
+          "price": 5.95,
+          "description": "8 pieces.",
+          "dietary": [
+            "gluten-free"
+          ],
+          "tags": [],
+          "hot": false,
+          "art": "maki:tunacucumber"
+        },
+        {
+          "id": "salmon-and-avocado-maki",
+          "name": "Salmon and Avocado Maki",
+          "price": 5.95,
+          "description": "8 pieces.",
+          "dietary": [
+            "gluten-free"
+          ],
+          "tags": [],
+          "hot": false,
+          "art": "maki:salmonavocado"
+        }
+      ]
+    },
+    {
+      "slug": "uramaki-rolls",
+      "name": "Uramaki Rolls",
+      "jp": "裏巻",
+      "intro": "Inside-out rice and seaweed rolls. 8 pieces.",
+      "note": "The restaurant notes that sauces in this category contain mayonnaise.",
+      "items": [
+        {
+          "id": "vegetable-uramaki",
+          "name": "Vegetable Uramaki",
+          "price": 8.25,
+          "description": "Cucumber and avocado inside seaweed, coated with sesame.",
+          "dietary": [
+            "vegan",
+            "gluten-free"
+          ],
+          "tags": [],
+          "hot": false,
+          "art": "uramaki:veg"
+        },
+        {
+          "id": "alaska-uramaki",
+          "name": "Alaska Uramaki",
+          "price": 9.45,
+          "description": "Grilled salmon skin and cucumber, coated with sesame.",
+          "dietary": [
+            "gluten-free"
+          ],
+          "tags": [],
+          "hot": false,
+          "art": "uramaki:alaska"
+        },
+        {
+          "id": "california-roll",
+          "name": "California Roll",
+          "price": 9.45,
+          "description": "Crab stick and avocado, coated with flying fish roe.",
+          "dietary": [],
+          "tags": [
+            "popular"
+          ],
+          "hot": false,
+          "art": "uramaki:california"
+        },
+        {
+          "id": "salmon-avocado-roll",
+          "name": "Salmon & Avocado Roll",
+          "price": 9.95,
+          "description": "",
+          "dietary": [
+            "gluten-free"
+          ],
+          "tags": [],
+          "hot": false,
+          "art": "uramaki:salmonavocado"
+        },
+        {
+          "id": "prawn-tempura-roll",
+          "name": "Prawn Tempura Roll",
+          "price": 9.95,
+          "description": "Coated with sesame.",
+          "dietary": [],
+          "tags": [],
+          "hot": false,
+          "art": "uramaki:prawntempura"
+        },
+        {
+          "id": "spicy-salmon-roll",
+          "name": "Spicy Salmon Roll",
+          "price": 9.95,
+          "description": "Spicy salmon and cucumber, coated with sesame.",
+          "dietary": [],
+          "tags": [
+            "spicy"
+          ],
+          "hot": false,
+          "art": "uramaki:spicysalmon"
+        },
+        {
+          "id": "philadelphia-roll",
+          "name": "Philadelphia Roll",
+          "price": 9.95,
+          "description": "Cream cheese, salmon, cucumber and avocado.",
+          "dietary": [],
+          "tags": [],
+          "hot": false,
+          "art": "uramaki:philadelphia"
+        },
+        {
+          "id": "spicy-tuna-roll",
+          "name": "Spicy Tuna Roll",
+          "price": 10.45,
+          "description": "Spicy tuna and cucumber, coated with tempura flakes.",
+          "dietary": [],
+          "tags": [
+            "spicy"
+          ],
+          "hot": false,
+          "art": "uramaki:spicytuna"
+        },
+        {
+          "id": "crunchy-tuna-roll",
+          "name": "Crunchy Tuna Roll",
+          "price": 10.65,
+          "description": "Tuna, tempura flakes and cucumber.",
+          "dietary": [],
+          "tags": [],
+          "hot": false,
+          "art": "uramaki:crunchytuna"
+        },
+        {
+          "id": "jumbo-roll",
+          "name": "Jumbo Roll",
+          "price": 10.75,
+          "description": "Salmon, prawn tempura and avocado.",
+          "dietary": [],
+          "tags": [],
+          "hot": false,
+          "art": "uramaki:jumbo"
+        },
+        {
+          "id": "rainbow-roll",
+          "name": "Rainbow Roll",
+          "price": 10.75,
+          "description": "California roll coated with tuna and salmon.",
+          "dietary": [],
+          "tags": [
+            "chefs-pick"
+          ],
+          "hot": false,
+          "art": "uramaki:rainbow"
+        },
+        {
+          "id": "ebi-panko-roll",
+          "name": "Ebi Panko Roll",
+          "price": 10.75,
+          "description": "Crispy prawn katsu, avocado and flying fish roe.",
+          "dietary": [],
+          "tags": [],
+          "hot": false,
+          "art": "uramaki:ebipanko"
+        },
+        {
+          "id": "king-prawn-eel-dragon-roll",
+          "name": "King Prawn Eel Dragon Roll",
+          "price": 11.45,
+          "description": "Eel-topped roll.",
+          "dietary": [],
+          "tags": [
+            "chefs-pick"
+          ],
+          "hot": false,
+          "art": "uramaki:dragon"
+        },
+        {
+          "id": "chirashi-sushi",
+          "name": "Chirashi Sushi",
+          "price": 14.5,
+          "description": "Sushi rice topped with egg, avocado, seaweed pickle, raw fish and shellfish.",
+          "dietary": [],
+          "tags": [],
+          "hot": false,
+          "art": "chirashi"
+        }
+      ]
+    },
+    {
+      "slug": "sashimi",
+      "name": "Sashimi",
+      "jp": "刺身",
+      "intro": "Thick slices of raw seafood. Standard sashimi is five pieces; platter quantities are listed per dish.",
+      "note": null,
+      "items": [
+        {
+          "id": "saba-sashimi",
+          "name": "Saba (Mackerel) Sashimi",
+          "price": 7.95,
+          "description": "5 pieces.",
+          "dietary": [
+            "gluten-free"
+          ],
+          "tags": [],
+          "hot": false,
+          "art": "sashimi:saba"
+        },
+        {
+          "id": "salmon-sashimi",
+          "name": "Salmon Sashimi",
+          "price": 9.75,
+          "description": "5 pieces.",
+          "dietary": [
+            "gluten-free"
+          ],
+          "tags": [
+            "popular"
+          ],
+          "hot": false,
+          "art": "sashimi:salmon"
+        },
+        {
+          "id": "sea-bass-sashimi",
+          "name": "Sea Bass Sashimi",
+          "price": 9.75,
+          "description": "5 pieces.",
+          "dietary": [
+            "gluten-free"
+          ],
+          "tags": [],
+          "hot": false,
+          "art": "sashimi:seabass"
+        },
+        {
+          "id": "tuna-sashimi",
+          "name": "Tuna Sashimi",
+          "price": 10.45,
+          "description": "5 pieces.",
+          "dietary": [
+            "gluten-free"
+          ],
+          "tags": [],
+          "hot": false,
+          "art": "sashimi:tuna"
+        },
+        {
+          "id": "mix-sashimi",
+          "name": "Mix Sashimi",
+          "price": 19.95,
+          "description": "Listed as 3 pieces; salmon, tuna, sea bass, soya salmon and saba.",
+          "dietary": [
+            "gluten-free"
+          ],
+          "tags": [],
+          "hot": false,
+          "art": "sashimi:mix"
+        },
+        {
+          "id": "delux-sashimi",
+          "name": "Delux Sashimi",
+          "price": 37.5,
+          "description": "Salmon (5), tuna (5), yellowtail (5), saba (5), sea bass (5), scallop (3) and soya salmon (4).",
+          "dietary": [
+            "gluten-free"
+          ],
+          "tags": [
+            "chefs-pick"
+          ],
+          "hot": false,
+          "art": "sashimi:delux"
+        }
+      ]
+    },
+    {
+      "slug": "japanese-salads",
+      "name": "Japanese Salads",
+      "jp": "サラダ",
+      "intro": "Fresh Japanese-style salads.",
+      "note": "The restaurant states that all salad dressings contain nuts.",
+      "items": [
+        {
+          "id": "seaweed-salad",
+          "name": "Seaweed Salad",
+          "price": 5.95,
+          "description": "",
+          "dietary": [
+            "vegan"
+          ],
+          "tags": [],
+          "hot": false,
+          "art": "salad:seaweed"
+        },
+        {
+          "id": "green-salad",
+          "name": "Green Salad",
+          "price": 6.75,
+          "description": "Garden greens with goma and soya dressing.",
+          "dietary": [
+            "vegan",
+            "gluten-free"
+          ],
+          "tags": [],
+          "hot": false,
+          "art": "salad:green"
+        },
+        {
+          "id": "seared-salmon-salad",
+          "name": "Seared Salmon Salad",
+          "price": 11.25,
+          "description": "",
+          "dietary": [],
+          "tags": [],
+          "hot": false,
+          "art": "salad:salmon"
+        },
+        {
+          "id": "seared-beef-salad",
+          "name": "Seared Beef Salad",
+          "price": 11.95,
+          "description": "",
+          "dietary": [],
+          "tags": [],
+          "hot": false,
+          "art": "salad:beef"
+        },
+        {
+          "id": "seared-tuna-salad",
+          "name": "Seared Tuna Salad",
+          "price": 11.95,
+          "description": "",
+          "dietary": [],
+          "tags": [],
+          "hot": false,
+          "art": "salad:tuna"
+        }
+      ]
+    },
+    {
+      "slug": "japanese-soups",
+      "name": "Japanese Soups",
+      "jp": "汁物",
+      "intro": "Comforting Japanese soups.",
+      "note": null,
+      "items": [
+        {
+          "id": "miso-soup",
+          "name": "Miso Soup",
+          "price": 3.25,
+          "description": "",
+          "dietary": [
+            "vegetarian"
+          ],
+          "tags": [],
+          "hot": true,
+          "art": "soup:miso"
+        },
+        {
+          "id": "seaweed-soup-poached-egg",
+          "name": "Seaweed Soup with Poached Egg",
+          "price": 6.95,
+          "description": "",
+          "dietary": [
+            "vegetarian"
+          ],
+          "tags": [],
+          "hot": true,
+          "art": "soup:seaweed"
+        }
+      ]
+    },
+    {
+      "slug": "ramen",
+      "name": "Ramen Noodle Soup",
+      "jp": "ラーメン",
+      "intro": "Ramen noodles in rich, warming broths.",
+      "note": null,
+      "items": [
+        {
+          "id": "vegetable-ramen-miso",
+          "name": "Vegetable Ramen — Miso",
+          "price": 8.45,
+          "description": "Miso broth, 2 vegetable gyoza, bean sprouts, seaweed and tofu.",
+          "dietary": [
+            "vegetarian"
+          ],
+          "tags": [],
+          "hot": true,
+          "art": "ramen:veg"
+        },
+        {
+          "id": "vegetable-ramen-ramen-base",
+          "name": "Vegetable Ramen — Ramen Base",
+          "price": 8.45,
+          "description": "Ramen-base broth, 2 vegetable gyoza, bean sprouts, seaweed and tofu.",
+          "dietary": [
+            "vegetarian"
+          ],
+          "tags": [],
+          "hot": true,
+          "art": "ramen:vegclear"
+        },
+        {
+          "id": "miso-ramen",
+          "name": "Miso Ramen",
+          "price": 10.95,
+          "description": "Miso broth, chicken, egg, bean sprouts and seaweed.",
+          "dietary": [],
+          "tags": [
+            "popular"
+          ],
+          "hot": true,
+          "art": "ramen:miso"
+        },
+        {
+          "id": "soya-ramen",
+          "name": "Soya Ramen",
+          "price": 10.95,
+          "description": "Soya broth, chicken, egg, bean sprouts and seaweed.",
+          "dietary": [],
+          "tags": [],
+          "hot": true,
+          "art": "ramen:soya"
+        },
+        {
+          "id": "kimchi-ramen",
+          "name": "Kimchi Ramen",
+          "price": 11.45,
+          "description": "Kimchi broth, chicken, 2 kimchi gyoza, bean sprouts and seaweed.",
+          "dietary": [],
+          "tags": [
+            "spicy"
+          ],
+          "hot": true,
+          "art": "ramen:kimchi"
+        }
+      ]
+    },
+    {
+      "slug": "noodle-soup",
+      "name": "Noodle Soup",
+      "jp": "うどん・そば",
+      "intro": "Udon and buckwheat soba noodle soups.",
+      "note": null,
+      "items": [
+        {
+          "id": "kitsune-udon",
+          "name": "Kitsune Udon",
+          "price": 9.95,
+          "description": "Noodle soup with bean curd.",
+          "dietary": [
+            "vegetarian"
+          ],
+          "tags": [],
+          "hot": true,
+          "art": "noodlesoup:udon"
+        },
+        {
+          "id": "kitsune-soba",
+          "name": "Kitsune Soba",
+          "price": 9.95,
+          "description": "Buckwheat noodle soup with bean curd.",
+          "dietary": [
+            "vegetarian"
+          ],
+          "tags": [],
+          "hot": true,
+          "art": "noodlesoup:soba"
+        },
+        {
+          "id": "prawn-tempura-udon-soup",
+          "name": "Prawn Tempura Udon Soup",
+          "price": 10.95,
+          "description": "Noodle soup with 2 prawn tempura pieces and vegetables.",
+          "dietary": [],
+          "tags": [],
+          "hot": true,
+          "art": "noodlesoup:tempura-udon"
+        },
+        {
+          "id": "prawn-tempura-soba-soup",
+          "name": "Prawn Tempura Soba Soup",
+          "price": 10.95,
+          "description": "Buckwheat noodle soup with 2 prawn tempura pieces and vegetables.",
+          "dietary": [],
+          "tags": [
+            "popular"
+          ],
+          "hot": true,
+          "art": "noodlesoup:tempura-soba"
+        }
+      ]
+    },
+    {
+      "slug": "katsu-curry",
+      "name": "Katsu Curry Rice",
+      "jp": "カツカレー",
+      "intro": "Japanese curry served over sticky rice.",
+      "note": null,
+      "items": [
+        {
+          "id": "vegetable-croquette-curry",
+          "name": "Vegetable Croquette Curry",
+          "price": 9.95,
+          "description": "Three pumpkin croquettes served with rice and curry.",
+          "dietary": [
+            "vegetarian"
+          ],
+          "tags": [],
+          "hot": true,
+          "art": "curry:croquette"
+        },
+        {
+          "id": "prawn-katsu-curry",
+          "name": "Prawn Katsu-Curry",
+          "price": 11.45,
+          "description": "Deep-fried prawns with Japanese curry over sticky rice.",
+          "dietary": [],
+          "tags": [],
+          "hot": true,
+          "art": "curry:prawn"
+        },
+        {
+          "id": "chicken-katsu-curry",
+          "name": "Chicken Katsu-Curry",
+          "price": 12.95,
+          "description": "Deep-fried chicken with Japanese curry over sticky rice.",
+          "dietary": [],
+          "tags": [
+            "popular"
+          ],
+          "hot": true,
+          "art": "curry:chicken"
+        }
+      ]
+    },
+    {
+      "slug": "rice-dishes",
+      "name": "Rice Dishes",
+      "jp": "ご飯物",
+      "intro": "Fried rice and rice plates.",
+      "note": "Fried rice dishes contain carrot, mixed pepper, onion, cabbage, green peas and bean sprouts.",
+      "items": [
+        {
+          "id": "japanese-style-vegetable-fried-rice",
+          "name": "Japanese Style Vegetable Fried Rice",
+          "price": 9.45,
+          "description": "Garlic and soya sauce.",
+          "dietary": [
+            "vegetarian"
+          ],
+          "tags": [],
+          "hot": true,
+          "art": "friedrice:veg"
+        },
+        {
+          "id": "egg-fried-rice",
+          "name": "Egg Fried Rice",
+          "price": 9.45,
+          "description": "Garlic, soya sauce and egg.",
+          "dietary": [
+            "vegetarian"
+          ],
+          "tags": [],
+          "hot": true,
+          "art": "friedrice:egg"
+        },
+        {
+          "id": "chicken-fried-rice",
+          "name": "Chicken Fried Rice",
+          "price": 9.95,
+          "description": "Garlic, soya sauce and egg.",
+          "dietary": [
+            "gluten-free"
+          ],
+          "tags": [],
+          "hot": true,
+          "art": "friedrice:chicken"
+        },
+        {
+          "id": "fuji-mixed-seafood-fried-rice",
+          "name": "Fuji Mixed Seafood Fried Rice",
+          "price": 10.5,
+          "description": "Garlic, soya sauce and egg.",
+          "dietary": [
+            "gluten-free"
+          ],
+          "tags": [
+            "chefs-pick"
+          ],
+          "hot": true,
+          "art": "friedrice:seafood"
+        },
+        {
+          "id": "mabo-tofu",
+          "name": "Mabo-Tofu",
+          "price": 10.95,
+          "description": "Tofu, aubergine and soya bean with Japanese hot sauce and rice.",
+          "dietary": [],
+          "tags": [
+            "spicy"
+          ],
+          "hot": true,
+          "art": "mabo"
+        },
+        {
+          "id": "yakiniku-steak",
+          "name": "Yakiniku Steak",
+          "price": 13.5,
+          "description": "Steak with Japanese BBQ sauce, rice and miso soup.",
+          "dietary": [],
+          "tags": [],
+          "hot": true,
+          "art": "grill:steak"
+        },
+        {
+          "id": "grilled-mackerel",
+          "name": "Grilled Mackerel",
+          "price": 13.5,
+          "description": "Grilled mackerel fillet with rice and miso soup.",
+          "dietary": [],
+          "tags": [],
+          "hot": true,
+          "art": "grill:mackerel"
+        }
+      ]
+    },
+    {
+      "slug": "bento-boxes",
+      "name": "Bento Boxes",
+      "jp": "弁当",
+      "intro": "All bento boxes include miso soup.",
+      "note": "The restaurant says the bento salad dressing contains nuts.",
+      "items": [
+        {
+          "id": "vegetable-bento",
+          "name": "Vegetable Bento",
+          "price": 10.45,
+          "description": "Pumpkin croquette, miso soup, rice, salad and pickle.",
+          "dietary": [
+            "vegetarian"
+          ],
+          "tags": [],
+          "hot": true,
+          "art": "bento:veg"
+        },
+        {
+          "id": "chicken-karage-bento",
+          "name": "Chicken Karage Bento",
+          "price": 11.95,
+          "description": "Fried chicken with garlic and soya sauce, miso soup, pickle, rice and salad.",
+          "dietary": [],
+          "tags": [
+            "popular"
+          ],
+          "hot": true,
+          "art": "bento:karaage"
+        },
+        {
+          "id": "chicken-katsu-bento",
+          "name": "Chicken Katsu Bento",
+          "price": 11.95,
+          "description": "Breaded fried chicken, miso soup, pickle, rice and salad.",
+          "dietary": [],
+          "tags": [],
+          "hot": true,
+          "art": "bento:katsu"
+        },
+        {
+          "id": "chicken-teriyaki-bento",
+          "name": "Chicken Teriyaki Bento",
+          "price": 11.95,
+          "description": "Teriyaki chicken, miso soup, pickle, rice and salad.",
+          "dietary": [],
+          "tags": [],
+          "hot": true,
+          "art": "bento:teriyaki"
+        },
+        {
+          "id": "salmon-bento",
+          "name": "Salmon Bento",
+          "price": 12.95,
+          "description": "Teriyaki salmon, miso soup, pickle, rice and salad.",
+          "dietary": [],
+          "tags": [],
+          "hot": true,
+          "art": "bento:salmon"
+        },
+        {
+          "id": "sirloin-steak-bento",
+          "name": "Sirloin Steak Bento",
+          "price": 12.95,
+          "description": "Grilled teriyaki sirloin, miso soup, pickle, rice and salad.",
+          "dietary": [],
+          "tags": [
+            "chefs-pick"
+          ],
+          "hot": true,
+          "art": "bento:steak"
+        },
+        {
+          "id": "sushi-bento",
+          "name": "Sushi Bento",
+          "price": 20.95,
+          "description": "California roll (4), salmon and tuna nigiri, sashimi, prawn and squid, vegetable tempura and miso soup.",
+          "dietary": [],
+          "tags": [],
+          "hot": false,
+          "art": "bento:sushi"
+        }
+      ]
+    },
+    {
+      "slug": "katsudon",
+      "name": "Katsudon",
+      "jp": "丼",
+      "intro": "Japanese sticky rice topped with meat or seafood cutlets.",
+      "note": null,
+      "items": [
+        {
+          "id": "chicken-katsudon",
+          "name": "Chicken Katsudon",
+          "price": 11.95,
+          "description": "Fried chicken cutlet cooked in Japanese sauce, served over rice; contains egg.",
+          "dietary": [],
+          "tags": [],
+          "hot": true,
+          "art": "donburi:katsudon"
+        },
+        {
+          "id": "tendon",
+          "name": "Tendon",
+          "price": 12.95,
+          "description": "Sticky rice topped with 3 prawn tempura and vegetable tempura; served with miso soup.",
+          "dietary": [],
+          "tags": [],
+          "hot": true,
+          "art": "donburi:tendon"
+        },
+        {
+          "id": "unaju-eel-fish",
+          "name": "Unaju (Eel Fish)",
+          "price": 19.5,
+          "description": "Grilled eel over rice with miso soup.",
+          "dietary": [],
+          "tags": [
+            "chefs-pick"
+          ],
+          "hot": true,
+          "art": "donburi:unaju"
+        }
+      ]
+    },
+    {
+      "slug": "extras",
+      "name": "Extras",
+      "jp": "追加",
+      "intro": "Sides and extras.",
+      "note": null,
+      "items": [
+        {
+          "id": "plain-rice",
+          "name": "Plain Rice",
+          "price": 3.45,
+          "description": "",
+          "dietary": [
+            "vegan"
+          ],
+          "tags": [],
+          "hot": true,
+          "art": "side:rice"
+        },
+        {
+          "id": "curry-sauce",
+          "name": "Curry",
+          "price": 3.45,
+          "description": "",
+          "dietary": [],
+          "tags": [],
+          "hot": true,
+          "art": "side:curry"
+        },
+        {
+          "id": "japanese-pickles",
+          "name": "Japanese Pickles",
+          "price": 3.45,
+          "description": "",
+          "dietary": [
+            "vegan"
+          ],
+          "tags": [],
+          "hot": false,
+          "art": "side:pickles"
+        },
+        {
+          "id": "plain-noodle",
+          "name": "Plain Noodle",
+          "price": 3.45,
+          "description": "",
+          "dietary": [
+            "vegetarian"
+          ],
+          "tags": [],
+          "hot": true,
+          "art": "side:noodle"
+        },
+        {
+          "id": "wasabi-peas",
+          "name": "Wasabi Peas",
+          "price": 3.45,
+          "description": "",
+          "dietary": [
+            "vegan"
+          ],
+          "tags": [],
+          "hot": false,
+          "art": "side:wasabipeas"
+        },
+        {
+          "id": "tofu-side",
+          "name": "Tofu",
+          "price": 3.75,
+          "description": "",
+          "dietary": [
+            "vegan"
+          ],
+          "tags": [],
+          "hot": false,
+          "art": "side:tofu"
+        }
+      ]
+    },
+    {
+      "slug": "futo-maki",
+      "name": "Futo Maki",
+      "jp": "太巻",
+      "intro": "Large futo maki rolls.",
+      "note": null,
+      "items": [
+        {
+          "id": "nori-maki",
+          "name": "Nori Maki",
+          "price": 9.95,
+          "description": "Tamago, kyampo, mushroom, soya carrot and cream cheese.",
+          "dietary": [
+            "vegetarian"
+          ],
+          "tags": [],
+          "hot": false,
+          "art": "futomaki:nori"
+        },
+        {
+          "id": "fuji-roll",
+          "name": "Fuji Roll (8 pieces)",
+          "price": 10.95,
+          "description": "Prawn, egg and seaweed; deep-fried with a tempura finish.",
+          "dietary": [],
+          "tags": [
+            "chefs-pick"
+          ],
+          "hot": false,
+          "art": "futomaki:fuji"
+        },
+        {
+          "id": "spider-roll",
+          "name": "Spider Roll",
+          "price": 11.95,
+          "description": "Soft-shell crab, avocado, crab stick and flying fish roe.",
+          "dietary": [],
+          "tags": [],
+          "hot": false,
+          "art": "futomaki:spider"
+        }
+      ]
+    },
+    {
+      "slug": "desserts",
+      "name": "Desserts",
+      "jp": "甘味",
+      "intro": "Dorayaki are Japanese pancakes served with one scoop of ice cream; mochi ice cream is sold in two pieces.",
+      "note": null,
+      "items": [
+        {
+          "id": "dorayaki-red-bean",
+          "name": "Dorayaki with Red Bean",
+          "price": 4.45,
+          "description": "Japanese pancake, served with one scoop of ice cream.",
+          "dietary": [
+            "vegetarian"
+          ],
+          "tags": [],
+          "hot": false,
+          "art": "dorayaki:redbean"
+        },
+        {
+          "id": "dorayaki-custard-cream",
+          "name": "Dorayaki with Custard Cream",
+          "price": 4.45,
+          "description": "Japanese pancake, served with one scoop of ice cream.",
+          "dietary": [
+            "vegetarian"
+          ],
+          "tags": [],
+          "hot": false,
+          "art": "dorayaki:custard"
+        },
+        {
+          "id": "dorayaki-green-tea-custard",
+          "name": "Dorayaki with Green Tea Custard",
+          "price": 4.45,
+          "description": "Japanese pancake, served with one scoop of ice cream.",
+          "dietary": [
+            "vegetarian"
+          ],
+          "tags": [],
+          "hot": false,
+          "art": "dorayaki:greentea"
+        },
+        {
+          "id": "mango-mochi-ice-cream",
+          "name": "Mango Mochi Ice Cream",
+          "price": 3.95,
+          "description": "Mochi ice cream; sold in 2 pieces.",
+          "dietary": [
+            "vegetarian"
+          ],
+          "tags": [],
+          "hot": false,
+          "art": "mochi:mango"
+        },
+        {
+          "id": "coconut-mochi-ice-cream",
+          "name": "Coconut Mochi Ice Cream",
+          "price": 3.95,
+          "description": "Mochi ice cream; sold in 2 pieces.",
+          "dietary": [
+            "vegetarian"
+          ],
+          "tags": [],
+          "hot": false,
+          "art": "mochi:coconut"
+        },
+        {
+          "id": "chocolate-mochi-ice-cream",
+          "name": "Chocolate Mochi Ice Cream",
+          "price": 3.95,
+          "description": "Mochi ice cream; sold in 2 pieces.",
+          "dietary": [
+            "vegetarian"
+          ],
+          "tags": [],
+          "hot": false,
+          "art": "mochi:chocolate"
+        },
+        {
+          "id": "green-tea-ice-cream",
+          "name": "Green Tea Ice Cream (2 scoops)",
+          "price": 4.45,
+          "description": "Two scoops.",
+          "dietary": [
+            "vegetarian"
+          ],
+          "tags": [],
+          "hot": false,
+          "art": "icecream:greentea"
+        },
+        {
+          "id": "black-sesame-ice-cream",
+          "name": "Black Sesame Ice Cream (2 scoops)",
+          "price": 4.45,
+          "description": "Two scoops.",
+          "dietary": [
+            "vegetarian"
+          ],
+          "tags": [],
+          "hot": false,
+          "art": "icecream:blacksesame"
+        },
+        {
+          "id": "vanilla-ice-cream",
+          "name": "Vanilla Ice Cream (2 scoops)",
+          "price": 3.95,
+          "description": "Two scoops.",
+          "dietary": [
+            "vegetarian"
+          ],
+          "tags": [],
+          "hot": false,
+          "art": "icecream:vanilla"
+        }
+      ]
+    },
+    {
+      "slug": "set-menu",
+      "name": "Set Menu",
+      "jp": "セット",
+      "intro": "Sushi sets and sharing platters.",
+      "note": null,
+      "items": [
+        {
+          "id": "salmon-set",
+          "name": "Salmon Set",
+          "price": 10.35,
+          "description": "6 salmon nigiri and 4 salmon maki.",
+          "dietary": [
+            "gluten-free"
+          ],
+          "tags": [
+            "popular"
+          ],
+          "hot": false,
+          "art": "set:salmon"
+        },
+        {
+          "id": "vegetable-set",
+          "name": "Vegetable Set",
+          "price": 10.95,
+          "description": "2 sweet tofu, 1 vegetable temaki and 4 vegetable uramaki.",
+          "dietary": [
+            "vegetarian"
+          ],
+          "tags": [],
+          "hot": false,
+          "art": "set:veg"
+        },
+        {
+          "id": "salmon-tuna-set",
+          "name": "Salmon Tuna Set",
+          "price": 11.75,
+          "description": "3 salmon nigiri, 3 tuna nigiri and 4 maki.",
+          "dietary": [],
+          "tags": [],
+          "hot": false,
+          "art": "set:salmontuna"
+        },
+        {
+          "id": "sushi-set",
+          "name": "Sushi Set",
+          "price": 11.95,
+          "description": "2 salmon nigiri, 1 tuna, 1 sea bass, 1 tamago and 4 maki.",
+          "dietary": [],
+          "tags": [],
+          "hot": false,
+          "art": "set:sushi"
+        },
+        {
+          "id": "tuna-set",
+          "name": "Tuna Set",
+          "price": 11.95,
+          "description": "6 tuna nigiri and 4 tuna maki.",
+          "dietary": [
+            "gluten-free"
+          ],
+          "tags": [],
+          "hot": false,
+          "art": "set:tuna"
+        },
+        {
+          "id": "fuji-set",
+          "name": "Fuji Set",
+          "price": 15.95,
+          "description": "Salmon, prawn, tuna, sea bass, saba, soya salmon, tamago, inari and 4 California roll pieces.",
+          "dietary": [],
+          "tags": [
+            "chefs-pick"
+          ],
+          "hot": false,
+          "art": "set:fuji"
+        },
+        {
+          "id": "nigiri-set",
+          "name": "Nigiri Set",
+          "price": 16.95,
+          "description": "10 assorted nigiri/gunkan pieces including salmon, seared fish, shrimp, scallop and roe.",
+          "dietary": [],
+          "tags": [],
+          "hot": false,
+          "art": "set:nigiri"
+        },
+        {
+          "id": "fuji-mix-platter",
+          "name": "Fuji Mix Platter",
+          "price": 21.0,
+          "description": "8 California roll, 2 each salmon/tuna/sea bass nigiri and 2 each salmon/tuna/sea bass sashimi.",
+          "dietary": [
+            "gluten-free"
+          ],
+          "tags": [],
+          "hot": false,
+          "art": "set:mix"
+        },
+        {
+          "id": "maki-ura-platter",
+          "name": "Maki Ura Platter (24 pieces)",
+          "price": 33.0,
+          "description": "8 salmon avocado uramaki, 8 panko roll and 8 prawn tempura roll.",
+          "dietary": [],
+          "tags": [],
+          "hot": false,
+          "art": "set:makiura"
+        },
+        {
+          "id": "fuji-delux-platter",
+          "name": "Fuji Delux Platter",
+          "price": 37.5,
+          "description": "Assorted salmon, tuna, prawn, sea bass, saba, soya salmon, seared salmon, tamago nigiri and 8 salmon uramaki.",
+          "dietary": [],
+          "tags": [
+            "chefs-pick"
+          ],
+          "hot": false,
+          "art": "set:delux"
+        }
+      ]
+    },
+    {
+      "slug": "stir-fry-noodles",
+      "name": "Stir-Fry Noodles",
+      "jp": "焼きそば",
+      "intro": "Yaki soba (thin noodles) and yaki udon (thick wheat noodles).",
+      "note": "Noodles are served with vegetables including carrot, mixed pepper, onion, cabbage, green peas and bean sprouts.",
+      "items": [
+        {
+          "id": "yaki-soba-vegetable",
+          "name": "Yaki Soba — Vegetable",
+          "price": 9.95,
+          "description": "Thin noodles stir-fried with vegetables.",
+          "dietary": [
+            "vegetarian"
+          ],
+          "tags": [],
+          "hot": true,
+          "art": "stirfry:soba-veg"
+        },
+        {
+          "id": "yaki-soba-chicken",
+          "name": "Yaki Soba — Chicken",
+          "price": 10.75,
+          "description": "Thin noodles stir-fried with chicken.",
+          "dietary": [],
+          "tags": [],
+          "hot": true,
+          "art": "stirfry:soba-chicken"
+        },
+        {
+          "id": "yaki-soba-beef",
+          "name": "Yaki Soba — Beef",
+          "price": 10.85,
+          "description": "Thin noodles stir-fried with beef.",
+          "dietary": [],
+          "tags": [],
+          "hot": true,
+          "art": "stirfry:soba-beef"
+        },
+        {
+          "id": "yaki-soba-seafood",
+          "name": "Yaki Soba — Seafood",
+          "price": 11.65,
+          "description": "Thin noodles stir-fried with seafood.",
+          "dietary": [],
+          "tags": [],
+          "hot": true,
+          "art": "stirfry:soba-seafood"
+        },
+        {
+          "id": "yaki-udon-vegetable",
+          "name": "Yaki Udon — Vegetable",
+          "price": 9.95,
+          "description": "Thick wheat noodles stir-fried with vegetables.",
+          "dietary": [
+            "vegetarian"
+          ],
+          "tags": [],
+          "hot": true,
+          "art": "stirfry:udon-veg"
+        },
+        {
+          "id": "yaki-udon-chicken",
+          "name": "Yaki Udon — Chicken",
+          "price": 10.75,
+          "description": "Thick wheat noodles stir-fried with chicken.",
+          "dietary": [],
+          "tags": [],
+          "hot": true,
+          "art": "stirfry:udon-chicken"
+        },
+        {
+          "id": "yaki-udon-beef",
+          "name": "Yaki Udon — Beef",
+          "price": 10.85,
+          "description": "Thick wheat noodles stir-fried with beef.",
+          "dietary": [],
+          "tags": [],
+          "hot": true,
+          "art": "stirfry:udon-beef"
+        },
+        {
+          "id": "yaki-udon-seafood",
+          "name": "Yaki Udon — Seafood",
+          "price": 11.65,
+          "description": "Thick wheat noodles stir-fried with seafood.",
+          "dietary": [],
+          "tags": [],
+          "hot": true,
+          "art": "stirfry:udon-seafood"
+        }
+      ]
+    },
+    {
+      "slug": "sushi-nigiri-gunkan",
+      "name": "Sushi Nigiri and Gunkan",
+      "jp": "握り",
+      "intro": "Nigiri and gunkan sushi, 2 pieces per order.",
+      "note": null,
+      "items": [
+        {
+          "id": "tamago-nigiri",
+          "name": "Tamago Nigiri",
+          "price": 4.45,
+          "description": "2 pieces.",
+          "dietary": [
+            "vegetarian"
+          ],
+          "tags": [],
+          "hot": false,
+          "art": "nigiri:tamago"
+        },
+        {
+          "id": "inari",
+          "name": "Inari",
+          "price": 4.75,
+          "description": "2 pieces.",
+          "dietary": [
+            "vegetarian"
+          ],
+          "tags": [],
+          "hot": false,
+          "art": "nigiri:inari"
+        },
+        {
+          "id": "prawn-nigiri",
+          "name": "Prawn Nigiri",
+          "price": 4.75,
+          "description": "2 pieces.",
+          "dietary": [
+            "gluten-free"
+          ],
+          "tags": [],
+          "hot": false,
+          "art": "nigiri:prawn"
+        },
+        {
+          "id": "eel-nigiri",
+          "name": "Eel Nigiri",
+          "price": 5.45,
+          "description": "2 pieces.",
+          "dietary": [],
+          "tags": [],
+          "hot": false,
+          "art": "nigiri:eel"
+        },
+        {
+          "id": "saba-nigiri",
+          "name": "Saba (Mackerel) Nigiri",
+          "price": 5.45,
+          "description": "2 pieces.",
+          "dietary": [
+            "gluten-free"
+          ],
+          "tags": [],
+          "hot": false,
+          "art": "nigiri:saba"
+        },
+        {
+          "id": "salmon-nigiri",
+          "name": "Salmon Nigiri",
+          "price": 5.45,
+          "description": "2 pieces.",
+          "dietary": [
+            "gluten-free"
+          ],
+          "tags": [
+            "popular"
+          ],
+          "hot": false,
+          "art": "nigiri:salmon"
+        },
+        {
+          "id": "sea-bass-nigiri",
+          "name": "Sea Bass Nigiri",
+          "price": 5.45,
+          "description": "2 pieces.",
+          "dietary": [
+            "gluten-free"
+          ],
+          "tags": [],
+          "hot": false,
+          "art": "nigiri:seabass"
+        },
+        {
+          "id": "seared-salmon-nigiri",
+          "name": "Seared Salmon Nigiri",
+          "price": 5.45,
+          "description": "2 pieces.",
+          "dietary": [],
+          "tags": [],
+          "hot": false,
+          "art": "nigiri:searedsalmon"
+        },
+        {
+          "id": "flying-fish-roe-gunkan",
+          "name": "Flying Fish Roe (Gunkan)",
+          "price": 5.95,
+          "description": "2 pieces.",
+          "dietary": [],
+          "tags": [],
+          "hot": false,
+          "art": "gunkan:roe"
+        },
+        {
+          "id": "octopus-nigiri",
+          "name": "Octopus Nigiri",
+          "price": 5.95,
+          "description": "2 pieces.",
+          "dietary": [
+            "gluten-free"
+          ],
+          "tags": [],
+          "hot": false,
+          "art": "nigiri:octopus"
+        },
+        {
+          "id": "seared-scallop-nigiri",
+          "name": "Seared Scallop Nigiri",
+          "price": 5.95,
+          "description": "2 pieces.",
+          "dietary": [],
+          "tags": [],
+          "hot": false,
+          "art": "nigiri:scallop"
+        },
+        {
+          "id": "sweet-shrimp-ama-ebi",
+          "name": "Sweet Shrimp Sushi (Ama Ebi)",
+          "price": 5.95,
+          "description": "2 pieces.",
+          "dietary": [],
+          "tags": [],
+          "hot": false,
+          "art": "nigiri:amaebi"
+        },
+        {
+          "id": "tuna-gunkan",
+          "name": "Tuna Nigiri (Gunkan)",
+          "price": 5.95,
+          "description": "2 pieces.",
+          "dietary": [],
+          "tags": [],
+          "hot": false,
+          "art": "gunkan:tuna"
+        },
+        {
+          "id": "spicy-tuna-gunkan",
+          "name": "Spicy Tuna Nigiri (Gunkan)",
+          "price": 5.95,
+          "description": "2 pieces.",
+          "dietary": [],
+          "tags": [
+            "spicy"
+          ],
+          "hot": false,
+          "art": "gunkan:spicytuna"
+        }
+      ]
+    },
+    {
+      "slug": "temaki",
+      "name": "Temaki Hand Rolls",
+      "jp": "手巻",
+      "intro": "Cone-shaped hand rolls, 1 piece.",
+      "note": null,
+      "items": [
+        {
+          "id": "veg-temaki",
+          "name": "Veg Temaki",
+          "price": 5.25,
+          "description": "Assorted salad, avocado, cucumber and seaweed.",
+          "dietary": [
+            "vegan"
+          ],
+          "tags": [],
+          "hot": false,
+          "art": "temaki:veg"
+        },
+        {
+          "id": "avocado-temaki",
+          "name": "Avocado Temaki",
+          "price": 5.25,
+          "description": "1 piece.",
+          "dietary": [
+            "vegan"
+          ],
+          "tags": [],
+          "hot": false,
+          "art": "temaki:avocado"
+        },
+        {
+          "id": "prawn-tempura-avocado-temaki",
+          "name": "Prawn Tempura & Avocado Temaki",
+          "price": 6.25,
+          "description": "1 piece.",
+          "dietary": [],
+          "tags": [
+            "popular"
+          ],
+          "hot": false,
+          "art": "temaki:prawn"
+        },
+        {
+          "id": "salmon-avocado-temaki",
+          "name": "Salmon & Avocado Temaki",
+          "price": 6.25,
+          "description": "1 piece.",
+          "dietary": [],
+          "tags": [],
+          "hot": false,
+          "art": "temaki:salmon"
+        },
+        {
+          "id": "eel-cucumber-temaki",
+          "name": "Eel & Cucumber Temaki",
+          "price": 6.95,
+          "description": "1 piece.",
+          "dietary": [],
+          "tags": [],
+          "hot": false,
+          "art": "temaki:eel"
+        },
+        {
+          "id": "tuna-cucumber-temaki",
+          "name": "Tuna Cucumber Temaki",
+          "price": 6.95,
+          "description": "1 piece.",
+          "dietary": [],
+          "tags": [],
+          "hot": false,
+          "art": "temaki:tuna"
+        }
+      ]
+    },
+    {
+      "slug": "soft-drinks",
+      "name": "Soft Drinks",
+      "jp": "飲み物",
+      "intro": "Soft drinks, juices and water.",
+      "note": null,
+      "items": [
+        {
+          "id": "still-water-glass",
+          "name": "Still Water (glass)",
+          "price": 2.45,
+          "description": "Glass.",
+          "dietary": [],
+          "tags": [],
+          "hot": false,
+          "art": "drink:water"
+        },
+        {
+          "id": "sparkling-water-glass",
+          "name": "Sparkling Water (glass)",
+          "price": 2.45,
+          "description": "Glass.",
+          "dietary": [],
+          "tags": [],
+          "hot": false,
+          "art": "drink:sparkling"
+        },
+        {
+          "id": "apple-juice",
+          "name": "Apple Juice",
+          "price": 3.25,
+          "description": "",
+          "dietary": [],
+          "tags": [],
+          "hot": false,
+          "art": "drink:apple"
+        },
+        {
+          "id": "orange-juice",
+          "name": "Orange Juice",
+          "price": 3.25,
+          "description": "",
+          "dietary": [],
+          "tags": [],
+          "hot": false,
+          "art": "drink:orange"
+        },
+        {
+          "id": "pineapple-juice",
+          "name": "Pineapple Juice",
+          "price": 3.25,
+          "description": "",
+          "dietary": [],
+          "tags": [],
+          "hot": false,
+          "art": "drink:pineapple"
+        },
+        {
+          "id": "tonic-water",
+          "name": "Tonic Water",
+          "price": 3.25,
+          "description": "",
+          "dietary": [],
+          "tags": [],
+          "hot": false,
+          "art": "drink:tonic"
+        },
+        {
+          "id": "diet-coke",
+          "name": "Diet Coke",
+          "price": 3.25,
+          "description": "",
+          "dietary": [],
+          "tags": [],
+          "hot": false,
+          "art": "drink:dietcola"
+        },
+        {
+          "id": "coke-zero",
+          "name": "Coke Zero",
+          "price": 3.25,
+          "description": "",
+          "dietary": [],
+          "tags": [],
+          "hot": false,
+          "art": "drink:zerocola"
+        },
+        {
+          "id": "lemonade",
+          "name": "Lemonade",
+          "price": 3.25,
+          "description": "200 ml.",
+          "dietary": [],
+          "tags": [],
+          "hot": false,
+          "art": "drink:lemonade"
+        },
+        {
+          "id": "coke",
+          "name": "Coke",
+          "price": 3.45,
+          "description": "",
+          "dietary": [],
+          "tags": [],
+          "hot": false,
+          "art": "drink:cola"
+        },
+        {
+          "id": "still-water-bottle",
+          "name": "Still Water",
+          "price": 4.15,
+          "description": "750 ml bottle.",
+          "dietary": [],
+          "tags": [],
+          "hot": false,
+          "art": "drink:bottle-still"
+        },
+        {
+          "id": "sparkling-water-bottle",
+          "name": "Sparkling Water",
+          "price": 4.15,
+          "description": "750 ml bottle.",
+          "dietary": [],
+          "tags": [],
+          "hot": false,
+          "art": "drink:bottle-sparkling"
+        },
+        {
+          "id": "ramune",
+          "name": "Ramune (Japanese Lemonade)",
+          "price": 4.95,
+          "description": "",
+          "dietary": [],
+          "tags": [],
+          "hot": false,
+          "art": "drink:ramune"
+        }
+      ]
+    },
+    {
+      "slug": "beers-and-sake",
+      "name": "Japanese Beers and Sake",
+      "jp": "酒",
+      "intro": "Japanese beers and sparkling sake.",
+      "note": "Alcoholic drinks are only sold to customers aged 18 or over.",
+      "items": [
+        {
+          "id": "asahi-zero",
+          "name": "Asahi 0% alcohol",
+          "price": 4.25,
+          "description": "",
+          "dietary": [],
+          "tags": [],
+          "hot": false,
+          "art": "beer:asahi0"
+        },
+        {
+          "id": "orion-beer",
+          "name": "Orion Beer (330 ml)",
+          "price": 4.25,
+          "description": "330 ml.",
+          "dietary": [],
+          "tags": [],
+          "hot": false,
+          "art": "beer:orion"
+        },
+        {
+          "id": "asahi",
+          "name": "Asahi",
+          "price": 4.45,
+          "description": "",
+          "dietary": [],
+          "tags": [],
+          "hot": false,
+          "art": "beer:asahi"
+        },
+        {
+          "id": "sapporo",
+          "name": "Sapporo",
+          "price": 4.45,
+          "description": "Menu spelling: Sopporo.",
+          "dietary": [],
+          "tags": [],
+          "hot": false,
+          "art": "beer:sapporo"
+        },
+        {
+          "id": "kirin",
+          "name": "Kirin",
+          "price": 5.25,
+          "description": "",
+          "dietary": [],
+          "tags": [],
+          "hot": false,
+          "art": "beer:kirin"
+        },
+        {
+          "id": "mio-sparkling-sake-150",
+          "name": "Mio Sparkling Sake (150 ml)",
+          "price": 8.95,
+          "description": "150 ml.",
+          "dietary": [],
+          "tags": [],
+          "hot": false,
+          "art": "sake:150"
+        },
+        {
+          "id": "mio-sparkling-sake-250",
+          "name": "Mio Sparkling Sake (250 ml)",
+          "price": 11.95,
+          "description": "250 ml.",
+          "dietary": [],
+          "tags": [],
+          "hot": false,
+          "art": "sake:250"
+        }
+      ]
+    },
+    {
+      "slug": "kids-menu",
+      "name": "Kids Menu",
+      "jp": "お子様",
+      "intro": "For our younger guests.",
+      "note": null,
+      "items": [
+        {
+          "id": "kids-chicken-fried-rice",
+          "name": "Kids Chicken Fried Rice",
+          "price": 5.45,
+          "description": "Egg and chicken fried rice with peas, garlic and soya sauce.",
+          "dietary": [],
+          "tags": [],
+          "hot": true,
+          "art": "friedrice:kids"
+        }
+      ]
+    }
+  ]
+}

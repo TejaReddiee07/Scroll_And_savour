@@ -1,0 +1,13 @@
+{
+  "permissions": {
+    "allow": [
+      "Bash(npm ls *)",
+      "Read(//c/Users/nagat/.cache/**)",
+      "Bash(npx vite *)",
+      "Bash(node -e \"const m=require\\('./server/src/data/menu.json'\\); const s=new Set\\(\\); let n=0; for\\(const c of m.categories\\) for\\(const i of c.items\\){ s.add\\(i.art\\); n++; } console.log\\(n, [...s].join\\(' '\\)\\); const keys=new Set\\(\\); for\\(const c of m.categories\\) for\\(const i of c.items\\) Object.keys\\(i\\).forEach\\(k=>keys.add\\(k\\)\\); console.log\\([...keys]\\); const al=new Set\\(\\); for\\(const c of m.categories\\) for\\(const i of c.items\\) \\(i.allergens||[]\\).forEach\\(a=>al.add\\(a\\)\\); console.log\\([...al]\\)\")",
+      "Bash(node scripts/check-syntax.js)",
+      "Bash(node -e \"import\\('./src/app.js'\\).then\\(m => { m.createApp\\(\\); console.log\\('app module graph imports OK'\\); process.exit\\(0\\) }\\).catch\\(e => { console.error\\(e\\); process.exit\\(1\\) }\\)\")",
+      "PowerShell($c = Get-NetTCPConnection -LocalPort 5055 -State Listen -ErrorAction SilentlyContinue; if \\($c\\) { $c | ForEach-Object { Stop-Process -Id $_.OwningProcess -Force -Confirm:$false; \"killed $\\($_.OwningProcess\\)\" } } else { \"nothing listening on 5055\" })"
+    ]
+  }
+}

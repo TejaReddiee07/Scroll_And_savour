@@ -1,0 +1,23 @@
+{
+  "name": "fuji-restaurant",
+  "version": "1.0.0",
+  "private": true,
+  "description": "Fuji Japanese Restaurant \u00e2\u20ac\u201d animated, interactive website (React + Vite) with Express/MongoDB API and admin dashboard.",
+  "scripts": {
+    "setup": "npm install && npm install --prefix server && npm install --prefix client",
+    "demo": "concurrently -k -n api,web -c red,yellow \"npm run demo --prefix server\" \"npm run dev --prefix client\"",
+    "dev": "concurrently -k -n api,web -c red,yellow \"npm run dev --prefix server\" \"npm run dev --prefix client\"",
+    "dev:client": "npm run dev --prefix client",
+    "dev:server": "npm run dev --prefix server",
+    "build": "npm run build --prefix client",
+    "preview": "npm run preview --prefix client",
+    "seed": "npm run seed --prefix server",
+    "smoke": "npm run smoke --prefix server",
+    "sync:menu": "node -e \"require('fs').copyFileSync('server/src/data/menu.json','client/src/data/menu.json');console.log('menu.json copied to client')\"",
+    "photos": "node tools/photos.mjs"
+  },
+  "devDependencies": {
+    "concurrently": "^9.1.2",
+    "sharp": "^0.34.2"
+  }
+}
